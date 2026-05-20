@@ -1,11 +1,11 @@
 name: Ubung 11 - GitHub Actions
 
-on:
-  push:
-    branches: [ "main", "master" ]
-  schedule:
-    - cron: '0 12 * * 1' # Zeitgesteuert: Jeden Montag um 12:00
-  workflow_dispatch: # Manuell auslösbar über die Website
+on: {}
+  # push:
+  #   branches: [ "main", "master" ]
+  # schedule:
+  #   - cron: '0 12 * * 1' # Zeitgesteuert: Jeden Montag um 12:00
+  # workflow_dispatch: # Manuell auslösbar über die Website
 
 jobs:
   quality-and-security:
